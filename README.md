@@ -56,7 +56,7 @@ In Claude Code, run:
 Then install the plugin:
 
 ```
-/plugin install Hook-Plugin@myleshosford/prehook-plugin
+/plugin install Prehook-AI@prehook-plugin
 ```
 
 Or use the interactive plugin manager by running `/plugin` and adding the marketplace from the **Marketplaces** tab.

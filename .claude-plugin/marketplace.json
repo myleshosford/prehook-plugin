@@ -1,13 +1,16 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "prehook-plugin",
+  "description": "Prehook.ai plugins for Claude Code",
   "owner": {
     "name": "Myles Hosford"
   },
   "plugins": [
     {
       "name": "Prehook-AI",
-      "source": ".",
-      "description": "Streams Claude Code lifecycle events to Prehook.ai for analysis and tool-use gating"
+      "description": "Streams Claude Code lifecycle events to Prehook.ai for analysis and tool-use gating",
+      "source": "./",
+      "category": "development"
     }
   ]
 }

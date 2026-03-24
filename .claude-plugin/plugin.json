@@ -1,0 +1,8 @@
+{
+"name": "Hook-Plugin",
+"description": "Sends Claude Code lifecycle events to prehook.ai API for analysis",
+"version": "1.2.1",
+"author": {
+"name": "Myles Hosford"
+}
+}

@@ -47,15 +47,19 @@ Replace `YOUR_API_KEY` with the key from your Prehook.ai dashboard.
 
 ### 2. Install the plugin
 
-```bash
-claude plugin add myleshosford/prehook-plugin
+In Claude Code, run:
+
+```
+/plugin marketplace add myleshosford/prehook-plugin
 ```
 
-Or, if you cloned this repo locally:
+Then install the plugin:
 
-```bash
-claude plugin add .
 ```
+/plugin install Hook-Plugin@myleshosford/prehook-plugin
+```
+
+Or use the interactive plugin manager by running `/plugin` and adding the marketplace from the **Marketplaces** tab.
 
 Claude Code will prompt you to approve the plugin's hooks on first run.
 

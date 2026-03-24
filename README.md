@@ -48,10 +48,10 @@ Replace `YOUR_API_KEY` with the key from your Prehook.ai dashboard.
 ### 2. Install the plugin
 
 ```bash
-claude plugin add /path/to/hook-plugin
+claude plugin add myleshosford/prehook-plugin
 ```
 
-Or, if you cloned this repo:
+Or, if you cloned this repo locally:
 
 ```bash
 claude plugin add .

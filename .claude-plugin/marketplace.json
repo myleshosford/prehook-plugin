@@ -1,0 +1,13 @@
+{
+  "name": "prehook-plugin",
+  "owner": {
+    "name": "Myles Hosford"
+  },
+  "plugins": [
+    {
+      "name": "Prehook-AI",
+      "source": ".",
+      "description": "Streams Claude Code lifecycle events to Prehook.ai for analysis and tool-use gating"
+    }
+  ]
+}

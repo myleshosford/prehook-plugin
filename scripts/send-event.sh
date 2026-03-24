@@ -37,7 +37,7 @@ echo "$TIMESTAMP | $PAYLOAD" >> "$LOG_DIR/events.log"
 
 if [ "$EVENT_TYPE" = "PreToolUse" ]; then
   # Synchronous — wait for API decision
-  RESPONSE=$(curl -s --max-time 3 \
+  RESPONSE=$(curl -sL --max-time 3 \
     -X POST "$API_URL" \
     -H "Authorization: Bearer $API_KEY" \
     -H "Content-Type: application/json" \
@@ -54,7 +54,7 @@ if [ "$EVENT_TYPE" = "PreToolUse" ]; then
 else
   # Fire-and-forget for all other events
   (
-    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+    HTTP_CODE=$(curl -sL -o /dev/null -w "%{http_code}" \
       --max-time 3 \
       -X POST "$API_URL" \
       -H "Authorization: Bearer $API_KEY" \

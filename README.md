@@ -37,7 +37,7 @@ For **PreToolUse** events, the API can respond with an allow/deny decision to bl
 mkdir -p ~/.prehook
 cat > ~/.prehook/config.json << 'EOF'
 {
-  "api_url": "https://api.prehook.ai/api/v1/events",
+  "api_url": "https://www.prehook.ai/api/v1/events",
   "api_key": "YOUR_API_KEY"
 }
 EOF

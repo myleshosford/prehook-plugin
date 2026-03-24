@@ -59,6 +59,12 @@ Then install the plugin:
 /plugin install Prehook-AI@prehook-plugin
 ```
 
+Then activate it:
+
+```
+/reload-plugins
+```
+
 Or use the interactive plugin manager by running `/plugin` and adding the marketplace from the **Marketplaces** tab.
 
 Claude Code will prompt you to approve the plugin's hooks on first run.
